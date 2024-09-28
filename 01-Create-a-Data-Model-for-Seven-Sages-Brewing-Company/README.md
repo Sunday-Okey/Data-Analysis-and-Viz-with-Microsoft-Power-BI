@@ -44,11 +44,17 @@ Here are the main steps.
 
 ## Data Sources
 
-![image](https://github.com/user-attachments/assets/e725d3d1-c0f9-4b11-a061-95c30b13717a)
+- **Promotional document** : The sales department has provided a promotional document that lists all the company’s current offerings, ratings, and servings sizes.
+
+- **Purchases**: An operations assistant has provided data on purchases, in the form of multiple Excel spreadsheets
+
+- **Customer records**: IT has provided customer records. They had to download these separately, but they have assured us that they are up to date.
+
+- **Metrics documentation**: The CFO has provided her metrics documentation that she’s been compiling on sales, costs, and servings (per
 
 ## Data wrangling with Power Query:
 
-We utilized Power Query clean data and for pre-processing that involved:
+I utilized Power Query to clean data and pre-processed the data that involved:
 
 - combining 12 monthly sales files into one unifined Sales query for better analysis.
 - Merging Customer List (as of FY2021).txt and SSBC Product Offerings.pdf to Product_CP query to include all product relevalt features.
@@ -102,9 +108,6 @@ To satisfy the Company's requirements, we will need to write six measures—to c
 To satisfy the requirements, the report will have three tabs, one summarizing sales by customer and customer type across quarters and would be labeled Sales and GPM. The second will simply summarize the percentages of gross profit and unit sales by product and would be labeled Gross Profit and Unit Sales. Both tabs have brief executive summary at the bottom. Next, we will dig in a little deeper and figure out what product type is most profitable per serving for serving for SSBC.
 
 The PDF report can be found on SSBC-Report file provided on this repo.
-
-![image](https://github.com/user-attachments/assets/5509634d-443c-4d77-a480-9c92df8bf56c)
-
 
 
 ![image](https://github.com/user-attachments/assets/7558066a-2604-4bdc-82fb-4db12f5e1eb8)
