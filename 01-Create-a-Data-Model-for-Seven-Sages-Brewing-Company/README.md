@@ -4,7 +4,7 @@
 Seven Sages have a common problem. They have a lot of data that is not centrally located and they need help getting everything organized so that they can
 understand their corporate profitability. They know that their main flagship beer, the Bamboo Grove Maibock, is the most popular but it's unclear otherwise, how much
 is being sold and what is ultimately the most profitable, and if some are perhaps even losing money. The Company is located in Washington State, but they also sell their beer
-in British Columbia, so there's a currency exchange consideration as well, and they have a fiscal calendar. So for their data model, they need to have a fiscal calendar as 
+in British Columbia, so there's a currency exchange consideration as well, and they have a fiscal calendar. So for the data model, they need to have a fiscal calendar as 
 well as a standard calendar incorporated within their date table.
 
 The goal is create a `data model` and Power BI report for Seven Sages Brewing Company that combines information from all over the company. The data model will make it possible for the company's CFO to quickly review and analyze what beers sell well and which ones generate the highest profitability. In this project we will create a highly functional data model that can generate insight by customers and products, that incorporate currency rates and which accounts for both `fiscal and calendar` year.
